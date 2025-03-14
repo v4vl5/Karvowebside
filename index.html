@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KARVO - Giày tái chế bền vững</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>KARVO</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Trang chủ</a></li>
+                <li><a href="#products">Sản phẩm</a></li>
+                <li><a href="#why-karvo">Tại sao chọn KARVO?</a></li>
+                <li><a href="#design-event">Sự kiện thiết kế</a></li>
+                <li><a href="#contact">Liên hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="banner">
+        <h2>Chào mừng đến với KARVO</h2>
+        <p>Thương hiệu giày tái chế mang đến phong cách bền vững.</p>
+        <button onclick="scrollToSection('products')">Khám phá ngay</button>
+    </section>
+
+    <section id="products">
+        <h2>Sản phẩm của chúng tôi</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="shoe1.jpg" alt="Giày KARVO mẫu 1">
+                <h3>KARVO Eco Sneaker</h3>
+                <p>Giày tái chế với thiết kế hiện đại.</p>
+            </div>
+            <div class="product">
+                <img src="shoe2.jpg" alt="Giày KARVO mẫu 2">
+                <h3>KARVO Runner</h3>
+                <p>Thoáng khí, phù hợp cho thể thao.</p>
+            </div>
+            <div class="product">
+                <img src="shoe3.jpg" alt="Giày KARVO mẫu 3">
+                <h3>KARVO Urban</h3>
+                <p>Phong cách đường phố, cá tính.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="why-karvo">
+        <h2>Tại sao chọn KARVO?</h2>
+        <ul>
+            <li><i class="fa-solid fa-recycle"></i> 100% từ vật liệu tái chế</li>
+            <li><i class="fa-solid fa-leaf"></i> Giảm thiểu tác động môi trường</li>
+            <li><i class="fa-solid fa-shoe-prints"></i> Thiết kế thời trang & bền vững</li>
+        </ul>
+        <img src="banner.jpg" alt="Hình ảnh bền vững" class="why-image">
+    </section>
+
+    <section id="design-event">
+        <h2>Sự kiện thiết kế giày KARVO</h2>
+        <p>Tham gia cuộc thi thiết kế giày và có cơ hội hợp tác với KARVO!</p>
+        <img src="event.jpg" alt="Sự kiện thiết kế" class="event-image">
+        <button onclick="scrollToSection('contact')">Đăng ký ngay</button>
+    </section>
+
+    <section id="contact">
+        <h2>Liên hệ với chúng tôi</h2>
+        <form>
+            <label for="name">Tên của bạn:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="message">Tin nhắn:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Gửi</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 KARVO - Giày tái chế bền vững</p>
+    </footer>
+</body>
+</html>
